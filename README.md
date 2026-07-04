@@ -32,24 +32,6 @@ The original dataset included these columns:
 9. Created a new `releaseinfo` column by merging release date and language.
 10. Formatted price values consistently with two decimal places.
 
-## Key Cleaning Decisions
-- Kept `Not rated yet` values as null instead of 0.
-- Used null for invalid or unknown values to avoid incorrect averages.
-- Treated free price values carefully based on business meaning.
-- Standardized text columns to improve readability and reporting quality.
-
-## Final Output
-The final cleaned dataset is ready for:
-- Data analysis
-- Dashboard creation
-- Reporting
-- Portfolio presentation
-
-## Files Included
-- `audible_cleaned.xlsx`
-- `audible_cleaned.csv`
-- `audible_uncleaned.csv`
-- `Audible_Data_Cleaning_Project_Explained_Shivji.pptx`
 
 ## Project Learning
 This project helped me understand how to clean real-world messy data using Power Query, handle errors, convert data types, and make better decisions while working with null and zero values.
